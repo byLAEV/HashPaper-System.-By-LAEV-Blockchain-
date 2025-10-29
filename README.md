@@ -5,13 +5,13 @@ HashPaper System es un sistema físico de trazabilidad y registro de documentos 
 
 Versión: 1.0
 Autor: LAEV (Lerry Alexander Elizondo Villalobos)
-Propósito: Este documento establece la arquitectura conceptual, los fundamentos técnicos, los lineamientos legales y las condiciones operativas para la implementación de un sistema de trazabilidad y registro anclado en la red Bitcoin. El objetivo es habilitar la interoperabilidad con corporaciones como Amazon, utilizando proveedores de Bitcoin (por ejemplo, Hamburg Assist o Proton AMG) como intermediarios de confianza para la conversión, anclaje y certificación de datos logísticos.
+Propósito: Este documento establece la arquitectura conceptual, los fundamentos técnicos, los lineamientos legales y las condiciones operativas para la implementación de un sistema de trazabilidad y registro anclado en la red Bitcoin. El objetivo es habilitar la interoperabilidad con corporaciones como Amazon, utilizando proveedores de Bitcoin (por ejemplo, Hanbot Assist o Proton AMG) como intermediarios de confianza para la conversión, anclaje y certificación de datos logísticos.
 
 ---
 
  Resumen Ejecutivo
 
-Este documento desarrolla de manera integral: (1) los Términos de Servicio (TOS) esenciales; (2) la descripción del flujo operativo y criptográfico de transmisión de metadatos y pagos; (3) la estructura de la API pública y privada de integración; (4) el formato estandarizado de etiquetas y códigos QR para verificación; (5) la arquitectura de la inteligencia artificial denominada Hamburg Assist; (6) los mecanismos de seguridad, auditoría y gobernanza; y (7) un cronograma técnico que permite la entrega de un prototipo funcional en un periodo de dos meses.
+Este documento desarrolla de manera integral: (1) los Términos de Servicio (TOS) esenciales; (2) la descripción del flujo operativo y criptográfico de transmisión de metadatos y pagos; (3) la estructura de la API pública y privada de integración; (4) el formato estandarizado de etiquetas y códigos QR para verificación; (5) la arquitectura de la inteligencia artificial denominada Hanbot Assist; (6) los mecanismos de seguridad, auditoría y gobernanza; y (7) un cronograma técnico que permite la entrega de un prototipo funcional en un periodo de dos meses.
 
 El modelo propuesto elimina fricciones entre la infraestructura logística y la red Bitcoin, delegando la ejecución transaccional a proveedores certificados que devuelven la información validada (txid, hash, enlace y QR) para su impresión y consulta pública en blockchain.
 
@@ -205,7 +205,7 @@ return {
 1. Aprobación institucional del TOS.
 2. Definición de campos de metadata obligatoria.
 3. Generación de credenciales API y sandbox.
-4. Pruebas funcionales iniciales de Hamburg Assist.
+4. Pruebas funcionales iniciales de Hanbot Assist.
 5. Validación integral del flujo de impresión y trazabilidad.
 
 ---
